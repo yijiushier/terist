@@ -8,7 +8,7 @@ public class changePage {
             @Override
             public void actionPerformed(ActionEvent e) {
                 nowPage.dispose();
-                aimPage.setVisible(true);
+                aimPage.setVisible(true);////hhshss
             }
         });
     }
