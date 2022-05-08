@@ -6,7 +6,6 @@ public class pauseAction {
     public static void PauseAction(JButton pause,JFrame PausePage){
      pause.addActionListener(new ActionListener() {
          @Override
-         //放弃更改
          public void actionPerformed(ActionEvent e) {
              PausePage.setVisible(true);
          }
